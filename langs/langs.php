@@ -8,6 +8,44 @@ $tr = [
     "navlink_6" => "İletişim",
 
 
+    "about_title" => "Hakkımızda",
+    "aboutsublink_1" => "Anasayfa",
+    "aboutsublink_2" => "Sayfalar",
+    "aboutsublink_3" => "Hakkımızda",
+    "about_subtitle" => "Lezzeti Yeniden Keşfedin 2011'Den Bu Yana Güvenle",
+    "about_text"=>"Teknik Aroma, yenilikçi ve yüksek kaliteli gıda aromaları üretiminde uzmanlaşmış bir
+                        firmadır. Misyonumuz, müşterilerimize en doğal ve lezzetli aromaları sunarak, onların ürünlerine
+                        değer katmak ve tüketici deneyimini zenginleştirmektir. Uzman ekibimiz, gıda bilimcileri ve
+                        aroma uzmanlarından oluşmaktadır. Doğanın sunduğu zengin ve çeşitli tatları, en son teknoloji
+                        ile birleştirerek güvenilir ve üstün kaliteli ürünler üretmeyi hedefliyoruz.",
+
+    "about_future_1"=>"Üstün Hizmet Anlayışı",
+    "about_future_2"=>"Yüksek Kaliteli Ürünler",
+    "about_future_3"=>"Doğal ve Sağlıklı Aromalar",
+    "section_title_2"=>"Firmamızı Ziyaret Edin",
+    "section_text_2"=>"Teknik Aroma, yenilikçi ve yüksek kaliteli gıda aromaları üretiminde uzmanlaşmış bir
+                        firmadır. Misyonumuz, müşterilerimize en doğal ve lezzetli aromaları sunarak, onların ürünlerine
+                        değer katmak ve tüketici deneyimini zenginleştirmektir. Uzman ekibimiz, gıda bilimcileri ve
+                        aroma uzmanlarından oluşmaktadır. Doğanın sunduğu zengin ve çeşitli tatları, en son teknoloji
+                        ile birleştirerek güvenilir ve üstün kaliteli ürünler üretmeyi hedefliyoruz.",
+    "visit"=>"Ziyaret Edin",
+    "section_title_3"=>"Hizmetlerimiz",
+    "section_title_3_text"=>"Üstün hizmet anlayışımız, geniş ürün yelpazemiz ile hizmetinizdeyiz.",
+
+    "service_1"=>"Gıda Aromaları",
+    "service_1_text"=>"İhtiyacınıza yönelik araştırma neticesinde en doğal ve lezzetli gıda aromalarını
+                        üretiyoruz.",
+
+    "service_2"=>"Gıda Katkı Maddeleri",
+    "service_2_text"=>"Gıda ürünlerinizin raf ömrünü uzatmak ve lezzetini artırmak için gerekli olan
+                        katkı maddelerini üretiyoruz.",
+    "service_3"=>"Tatlandırıcılar",
+    "service_3_text"=>"Düşük kalorili ve doğal tatlandırıcılar ile sağlıklı beslenme alışkanlıklarınıza
+                        destek oluyoruz.",
+    "read_more"=>"Devamını Oku",
+
+
+
     "title" => "İletişim",
     "sublink_1" => "Anasayfa",
     "sublink_2" => "Sayfalar",
