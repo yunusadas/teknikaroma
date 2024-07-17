@@ -26,7 +26,9 @@
             }
         } else {
             if ($(this).scrollTop() > 45) {
-                $('.fixed-top').addClass('bg-white shadow').css('top', -45);
+                $('.fixed-top').addClass('bg-white shadow').css('top', -35);
+                $('.fixed-top').css('padding-bottom', 10);
+                $('.top-bar').css('border-bottom', 'none');
             } else {
                 $('.fixed-top').removeClass('bg-white shadow').css('top', 0);
             }

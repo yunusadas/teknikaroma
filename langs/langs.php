@@ -7,6 +7,10 @@ $tr = [
     "navlink_5" => "Blog",
     "navlink_6" => "İletişim",
 
+    "page_error" => "Sayfa Bulunamadı",
+    "page_error_text" => "Üzgünüz, aradığınız sayfa web sitemizde mevcut değil! Ana sayfaya gidin ve bir arama yapmayı deneyin.",
+    "go_home" => "Ana Sayfaya Dön",
+
 
     "about_title" => "Hakkımızda",
     "aboutsublink_1" => "Anasayfa",
@@ -55,7 +59,7 @@ $tr = [
         "title" => "Bize Ulaşın",
         "call" => [
             "title" => "Bizi Arayın",
-            "phone" => "+012 345 67890",
+            "phone" => "(0212) 671 83 40",
         ],
         "email" => [
             "title" => "Bize E-Posta Gönderin",
@@ -63,7 +67,7 @@ $tr = [
     ],
     "address" => [
         "title" => "Ofis Adresi",
-        "address" => "Küçük Sanayi Sitesi 17. Sokak No: 3, 42050 Konya, Türkiye"
+        "address" => "Ataturk Bulvarı Beyaz Tower, Kat:6 No:90, 34200 Başakşehir/İstanbul"
     ],
     "takip" => "Bizi Takip Edin",
     "placeholder_1" => "Adınız",
@@ -83,7 +87,7 @@ $en = [
         "title" => "Contact Us",
         "call" => [
             "title" => "Call Us",
-            "phone" => "+012 345 67890",
+            "phone" => "(0212) 671 83 40",
         ],
         "email" => [
             "title" => "Send Us E-Mail",
@@ -91,7 +95,7 @@ $en = [
     ],
     "address" => [
         "title" => "Office Address",
-        "address" => "Küçük Sanayi Sitesi 17. Sokak No: 3, 42050 Konya, Türkiye"
+        "address" => "Ataturk Bulvarı Beyaz Tower, Kat:6 No:90, 34200 Başakşehir/İstanbul"
     ],
     "takip" => "Follow Us",
     "placeholder_1" => "Your Name",
@@ -99,4 +103,5 @@ $en = [
     "placeholder_3" => "Subject",
     "placeholder_4" => "Your Message",
     "send" => "Send Message",
+
 ];
