@@ -1,5 +1,18 @@
 <?php
-require 'langs/langs.php';
+//require 'langs/tr.php';
+session_start();
+if (isset($_SESSION['lang'])) {
+    if ($_SESSION['lang'] == 'tr') {
+        require 'langs/tr.php';
+    } else if ($_SESSION['lang'] == 'en') {
+        require 'langs/en.php';
+    } else if ($_SESSION['lang'] == 'ar') {
+        require 'langs/ar.php';
+    }
+}else{
+    $_SESSION['lang'] = 'tr';
+    require 'langs/tr.php';
+}
 ?>
 <!DOCTYPE html>
 <html lang="tr">
@@ -20,7 +33,8 @@ require 'langs/langs.php';
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap"
+          rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -39,7 +53,8 @@ require 'langs/langs.php';
 
 <body>
 <!-- Spinner Start -->
-<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+<div id="spinner"
+     class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
     <div class="spinner-border text-primary" role="status"></div>
 </div>
 <!-- Spinner End -->
@@ -54,8 +69,10 @@ require 'langs/langs.php';
             <small>Follow us:</small>
             <a class="text-body ms-3" href=""><i class="fab fa-facebook-f"></i></a>
             <a class="text-body ms-3" href=""><i class="fab fa-twitter"></i></a>
-            <a class="text-body ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
-            <a class="text-body ms-3" target="_blank" href="https://www.instagram.com/teknikaroma?igsh=dzFsMWhjczgyMzI4"><i class="fab fa-instagram"></i></a>
+            <a hidden class="text-body ms-3" href=""><img style="max-width: 20px;" src="img/turkey.png"
+                                                          alt="turkish"></a>
+            <a class="text-body ms-3" target="_blank"
+               href="https://www.instagram.com/teknikaroma?igsh=dzFsMWhjczgyMzI4"><i class="fab fa-instagram"></i></a>
         </div>
     </div>
 
@@ -68,9 +85,10 @@ require 'langs/langs.php';
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.php" class="nav-item nav-link"><?php echo $tr["navlink_1"]; ?></a>
-                <a href="hakkimizda.php" class="nav-item nav-link"><?php echo $tr["navlink_2"]; ?></a>
-                <a style="display: none;" href="product.html" class="nav-item nav-link"><?php echo $tr["navlink_4"]; ?></a>
+                <a href="index.php" class="nav-item nav-link"><?php echo $lang["navlink_1"]; ?></a>
+                <a href="hakkimizda.php" class="nav-item nav-link"><?php echo $lang["navlink_2"]; ?></a>
+                <a style="display: none;" href="product.html"
+                   class="nav-item nav-link"><?php echo $lang["navlink_4"]; ?></a>
                 <div style="display: none;" class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">
@@ -80,7 +98,17 @@ require 'langs/langs.php';
                         <a href="404.php" class="dropdown-item">404 Page</a>
                     </div>
                 </div>
-                <a href="iletisim.php" class="nav-item nav-link active"><?php echo $tr["navlink_6"]; ?></a>
+                <a href="iletisim.php" class="nav-item nav-link active"><?php echo $lang["navlink_6"]; ?></a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dil</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="" onclick="<?php $_SESSION["lang"] = "tr"; ?>"
+                           class="dropdown-item">Türkçe</a>
+                        <a href="" onclick="<?php $_SESSION["lang"] = "en"; ?>" class="dropdown-item">English</a>
+                        <a href="" onclick="<?php $_SESSION["lang"] = "ar"; ?>" class="dropdown-item">عربي</a>
+                        <a href="" onclick="<?php session_destroy(); ?>" class="dropdown-item">destroy</a>
+                    </div>
+                </div>
             </div>
             <div class="d-none d-lg-flex ms-2">
 

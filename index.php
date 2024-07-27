@@ -1,6 +1,6 @@
 <?php
 include 'header.php';
-require 'langs/langs.php';
+//require 'langs/tr.php';
 ?>
 
 
@@ -66,12 +66,12 @@ require 'langs/langs.php';
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="display-5 mb-4"><?php echo $tr["about_subtitle"]; ?></h1>
-                    <p class="mb-4"><?php echo $tr["about_text"]; ?></p>
-                    <p><i class="fa fa-check text-primary me-3"></i><?php echo $tr["about_future_1"]; ?></p>
-                    <p><i class="fa fa-check text-primary me-3"></i><?php echo $tr["about_future_2"]; ?></p>
-                    <p><i class="fa fa-check text-primary me-3"></i><?php echo $tr["about_future_3"]; ?></p>
-                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href=""><?php echo $tr["send"]; ?></a>
+                    <h1 class="display-5 mb-4"><?php echo $lang["about_subtitle"]; ?></h1>
+                    <p class="mb-4"><?php echo $lang["about_text"]; ?></p>
+                    <p><i class="fa fa-check text-primary me-3"></i><?php echo $lang["about_future_1"]; ?></p>
+                    <p><i class="fa fa-check text-primary me-3"></i><?php echo $lang["about_future_2"]; ?></p>
+                    <p><i class="fa fa-check text-primary me-3"></i><?php echo $lang["about_future_3"]; ?></p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href=""><?php echo $lang["send"]; ?></a>
                 </div>
             </div>
         </div>
@@ -84,32 +84,32 @@ require 'langs/langs.php';
         <div class="container">
             <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s"
                  style="max-width: 500px;">
-                <h1 class="display-5 mb-3"><?php echo $tr["section_title_3"]; ?></h1>
-                <p><?php echo $tr["section_title_3_text"];?></p>
+                <h1 class="display-5 mb-3"><?php echo $lang["section_title_3"]; ?></h1>
+                <p><?php echo $lang["section_title_3_text"];?></p>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="bg-white text-center h-100 p-4 p-xl-5">
                         <img class="img-fluid mb-4" src="img/icon-1.png" alt="">
-                        <h4 class="mb-3"><?php echo $tr["service_1"];?></h4>
-                        <p class="mb-4"><?php echo $tr["service_1_text"];?></p>
-                        <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href=""><?php echo $tr["read_more"];?></a>
+                        <h4 class="mb-3"><?php echo $lang["service_1"];?></h4>
+                        <p class="mb-4"><?php echo $lang["service_1_text"];?></p>
+                        <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href=""><?php echo $lang["read_more"];?></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="bg-white text-center h-100 p-4 p-xl-5">
                         <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
-                        <h4 class="mb-3"><?php echo $tr["service_2"];?></h4>
-                        <p class="mb-4"><?php echo $tr["service_2_text"];?></p>
-                        <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href=""><?php echo $tr["read_more"];?></a>
+                        <h4 class="mb-3"><?php echo $lang["service_2"];?></h4>
+                        <p class="mb-4"><?php echo $lang["service_2_text"];?></p>
+                        <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href=""><?php echo $lang["read_more"];?></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="bg-white text-center h-100 p-4 p-xl-5">
                         <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
-                        <h4 class="mb-3"><?php echo $tr["service_3"];?></h4>
-                        <p class="mb-4"><?php echo $tr["service_3_text"];?></p>
-                        <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href=""><?php echo $tr["read_more"];?></a>
+                        <h4 class="mb-3"><?php echo $lang["service_3"];?></h4>
+                        <p class="mb-4"><?php echo $lang["service_3_text"];?></p>
+                        <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href=""><?php echo $lang["read_more"];?></a>
                     </div>
                 </div>
             </div>
@@ -122,11 +122,11 @@ require 'langs/langs.php';
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-md-7 wow fadeIn" data-wow-delay="0.1s">
-                    <h1 class="display-5 text-white mb-3"><?php echo $tr["section_title_2"]; ?></h1>
-                    <p class="text-white mb-0"><?php echo $tr["section_text_2"]; ?></p>
+                    <h1 class="display-5 text-white mb-3"><?php echo $lang["section_title_2"]; ?></h1>
+                    <p class="text-white mb-0"><?php echo $lang["section_text_2"]; ?></p>
                 </div>
                 <div class="col-md-5 text-md-end wow fadeIn" data-wow-delay="0.5s">
-                    <a class="btn btn-lg btn-secondary rounded-pill py-3 px-5" href=""><?php echo $tr["visit"]; ?></a>
+                    <a class="btn btn-lg btn-secondary rounded-pill py-3 px-5" href=""><?php echo $lang["visit"]; ?></a>
                 </div>
             </div>
         </div>

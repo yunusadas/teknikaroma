@@ -1,5 +1,5 @@
 <?php
-$tr = [
+$lang = [
     "navlink_1" => "Anasayfa",
     "navlink_2" => "Hakkımızda",
     "navlink_3" => "Hizmetler",
@@ -75,33 +75,5 @@ $tr = [
     "placeholder_3" => "Konu",
     "placeholder_4" => "Mesajınız",
     "send" => "Mesaj Gönder",
-
-];
-$en = [
-    "title" => "Contact",
-    "sublink_1" => "Home",
-    "sublink_2" => "Pages",
-    "sublink_3" => "Contact",
-    "subtitle" => "Please fill out the contact form below to get more information.",
-    "contact" => [
-        "title" => "Contact Us",
-        "call" => [
-            "title" => "Call Us",
-            "phone" => "(0212) 671 83 40",
-        ],
-        "email" => [
-            "title" => "Send Us E-Mail",
-            "email" => "info@teknikaroma.com",]
-    ],
-    "address" => [
-        "title" => "Office Address",
-        "address" => "Ataturk Bulvarı Beyaz Tower, Kat:6 No:90, 34200 Başakşehir/İstanbul"
-    ],
-    "takip" => "Follow Us",
-    "placeholder_1" => "Your Name",
-    "placeholder_2" => "Your E-Mail",
-    "placeholder_3" => "Subject",
-    "placeholder_4" => "Your Message",
-    "send" => "Send Message",
 
 ];

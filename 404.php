@@ -26,9 +26,9 @@ include 'header.php';?>
                 <div class="col-lg-6">
                     <i class="bi bi-exclamation-triangle display-1 text-primary"></i>
                     <h1 class="display-1">404</h1>
-                    <h1 class="mb-4"><?php echo $tr["page_error"]; ?></h1>
-                    <p class="mb-4"><?php echo $tr["page_error_text"]; ?></p>
-                    <a class="btn btn-primary rounded-pill py-3 px-5" href=""><?php echo $tr["go_home"]; ?></a>
+                    <h1 class="mb-4"><?php echo $lang["page_error"]; ?></h1>
+                    <p class="mb-4"><?php echo $lang["page_error_text"]; ?></p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5" href=""><?php echo $lang["go_home"]; ?></a>
                 </div>
             </div>
         </div>
